@@ -1,0 +1,72 @@
+﻿
+@using AeropuertoG2.Models;
+@model AeropuertoG2.Models.Aeronave
+
+@{
+    ViewBag.Title = "Aeronave";
+    List<Aeronave> myList3rospen = new List<Aeronave>();
+    myList3rospen = (List<Aeronave>)Session["CreaAeronave"];
+
+}
+
+@using (Html.BeginForm())
+{
+    <h2>Crear Aeronave</h2>
+    <div class="row col-md-12 ">
+        @Html.LabelFor(u => u.Marca)
+        @Html.TextBoxFor(u => u.Marca, new { @class = "form-control", placeholder = "Marca Aeronave" })
+        @Html.ValidationMessageFor(u => u.Marca)
+
+        @Html.LabelFor(u => u.Modelo)
+        @Html.TextBoxFor(u => u.Modelo, new { @class = "form-control", placeholder = "Modelo Aeronave" })
+        @Html.ValidationMessageFor(u => u.Modelo)
+
+        @Html.LabelFor(u => u.NroAsientos)
+        @Html.TextBoxFor(u => u.NroAsientos, new { @class = "form-control", placeholder = "Nro Asientos" })
+        @Html.ValidationMessageFor(u => u.NroAsientos)
+
+        @Html.LabelFor(u => u.CapacidadCarga)
+        @Html.TextBoxFor(u => u.CapacidadCarga, new { @class = "form-control", placeholder = "Capacidad de Carga" })
+        @Html.ValidationMessageFor(u => u.CapacidadCarga)
+
+        @Html.LabelFor(u => u.CapTanqueCombustible)
+        @Html.TextBoxFor(u => u.CapTanqueCombustible, new { @class = "form-control", placeholder = "Capacidad Tanque de Combustible" })
+        @Html.ValidationMessageFor(u => u.CapTanqueCombustible)
+
+        @Html.LabelFor(u => u.AereopuertoEstacionamiento)
+        @Html.DropDownList("AeropuertoDropDownlist", (List<SelectListItem>)ViewBag.listadoAeropuerto, new { @class = "form-control" })
+
+
+        <p></p>
+        <button type="submit" class="btn btn-primary" name="submitButton" value="CrearAeronave">Crear Aeronave</button>
+        <hr/>
+
+        @*
+            @if (myList3rospen != null)
+            {
+                foreach (var item in myList3rospen)
+                {
+
+                    <h2>Codigo Aeronave @item.CodAeronave</h2>
+
+                    <div class="row col-md-12">
+
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.CodAeronave, new { @class = "control-label", Value = item.CodAeronave, @hidden = "true" })
+                            @Html.ValidationMessageFor(model => model.CodAeronave)
+                        </div>
+
+                    </div>
+
+
+                }
+            }
+        *@
+
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Retornar", "AeronaveIni")
+</div>

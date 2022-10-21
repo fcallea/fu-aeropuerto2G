@@ -1,0 +1,100 @@
+﻿@model AeropuertoG2.Models.Aeronave
+@using AeropuertoG2.Models;
+
+@{
+    ViewBag.Title = "Aeronave Create";
+
+    
+
+
+}
+
+<h2>Crear Aeronave</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Aeronave</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Marca, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Marca, new { htmlAttributes = new { @class = "form-control", placeholder = "ingresar Marca Aeronave" } })
+            @Html.ValidationMessageFor(model => model.Marca, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Modelo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Modelo, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Modelo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NroAsientos, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NroAsientos, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NroAsientos, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CapacidadCarga, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CapacidadCarga, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.CapacidadCarga, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CapTanqueCombustible, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CapTanqueCombustible, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.CapTanqueCombustible, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*
+        <div class="form-group">
+            @Html.LabelFor(model => model.AereopuertoEstacionamiento, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AereopuertoEstacionamiento, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AereopuertoEstacionamiento, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    *@
+
+     <div class="form-group">
+         <div class="col-md-10">
+             @Html.LabelFor(model => model.AereopuertoEstacionamiento)
+
+             @Html.DropDownListFor(model => model.AereopuertoEstacionamiento, (List<SelectListItem>)ViewBag.listadoAeropuerto, new { @class = "form-control" })
+             @*
+        @Html.DropDownList("AeropuertoDropDownlist", (List<SelectListItem>)ViewBag.listadoAeropuerto, new { @class = "form-control" })
+             *@
+         </div>
+      </div>
+     
+
+
+      <div class="form-group">
+          <div class="col-md-offset-2 col-md-10">
+
+              @*
+        <input type="submit" value="Create" class="btn btn-default" />
+              *@
+              <p></p>
+              <button type="submit" class="btn btn-primary" name="submitButton" value="CrearAeronave">Crear Aeronave</button>
+          </div>
+      </div>
+    </div>
+    }
+
+    <div>
+        @Html.ActionLink("Retornar", "AeronaveIni")
+    </div>

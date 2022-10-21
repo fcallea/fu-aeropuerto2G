@@ -1,0 +1,91 @@
+﻿@model IEnumerable<AeropuertoG2.Models.Aeronave>
+@using AeropuertoG2.Models;
+
+@{
+    ViewBag.Title = "Aeronave";
+    List<Aeronave> myList3rospen = new List<Aeronave>();
+    myList3rospen = (List<Aeronave>)Session["listaAeronave"];
+
+}
+
+<h2>Aeronave</h2>
+
+<p>
+    @Html.ActionLink("Agregar AERONAVE", "AeronaveCreate")
+    <p/>
+    @Html.ActionLink("Buscar AERONAVE", "AeronaveSearch")
+</p>
+@*
+<p>
+    <a asp-action="Create">Agregar AERONAVE</a>
+</p>
+*@
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodAeronave)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NroAsientos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapacidadCarga)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapTanqueCombustible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AereopuertoEstacionamiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoAeronave)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in myList3rospen)  //Model
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodAeronave)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Marca)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NroAsientos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CapacidadCarga)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CapTanqueCombustible)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AereopuertoEstacionamiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EstadoAeronave)
+                </td>
+                @*
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                *@
+            </tr>
+        }
+
+    </table>
+</div>

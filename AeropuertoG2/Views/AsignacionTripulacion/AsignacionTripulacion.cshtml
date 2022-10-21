@@ -1,0 +1,27 @@
+﻿@using AeropuertoG2.Models;
+@model AeropuertoG2.Models.AsignacionTripulacionViewModel
+@{
+    ViewBag.Title = "Asignacion";
+    List<AsignacionTripulacionViewModel> myList3rospen = new List<AsignacionTripulacionViewModel>();
+    myList3rospen = (List<AsignacionTripulacionViewModel>)Session["listaTripulacionAsig"];
+
+    List<SelectListItem> dropdownItems = myList3rospen
+    .Select(item => new SelectListItem
+    {
+        Value = Convert.ToString(item.tripulacionGuid),
+        Text = item.tripulacionNombre,
+        Selected = "-1" == Convert.ToString(item.tripulacionGuid) ? true : false
+    })
+    .ToList();
+
+}
+@using (Html.BeginForm())
+{
+    <h2>AsignacionTripulacion</h2>
+    <div class="row col-md-12">
+        @Html.DropDownListFor(model => model.idTripulacion, dropdownItems, new { @class = "form-control" })
+        <p></p>
+        <button type="submit" class="btn btn-primary" name="submitButton" value="AsignarTripulacion">Asignar Tripulacion</button>
+        <hr />
+    </div>
+}

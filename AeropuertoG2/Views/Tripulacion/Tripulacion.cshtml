@@ -1,0 +1,93 @@
+﻿@using AeropuertoG2.Models;
+@model AeropuertoG2.Models.TripulacionViewModel
+@{
+    ViewBag.Title = "Tripulacion";
+    List<TripulacionViewModel> myList3rospen = new List<TripulacionViewModel>();
+    myList3rospen = (List<TripulacionViewModel>)Session["listaTripulacion"];
+
+}
+@using (Html.BeginForm())
+{
+    <h2>Crear Tripulacion</h2>
+    <div class="row col-md-12">
+        @Html.LabelFor(u => u.tripulacionNombre)
+        @Html.TextBoxFor(u => u.tripulacionNombre, new { @class = "form-control", placeholder = "Tripulacion" })
+        @Html.ValidationMessageFor(u => u.tripulacionNombre)
+        <p></p>
+        <button type="submit" class="btn btn-primary" name="submitButton" value="CrearTripulacion">Crear Tripulacion </button>
+        <hr />
+        @if (myList3rospen != null)
+        {
+            foreach (var item in myList3rospen)
+            {
+
+                <h2>Integrantes Tripulacion @item.tripulacionId</h2>
+
+                <div class="row col-md-12">
+
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.tripulacionId, new { @class = "control-label", Value = item.tripulacionId, @hidden = "true" })
+                        @Html.ValidationMessageFor(model => model.tripulacionId)
+                    </div>
+
+                </div>
+
+
+            }
+        }
+        @*<div class="row col-md-12">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.tripulacionId, new { @class = "control-label" })
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.tripulacionId, new { values = "0" })
+                @Html.ValidationMessageFor(model => model.tripulacionId)
+            </div>
+
+        </div>*@
+        <div class="row col-md-6">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.IntegranteNombre, new { @class = "control-label" })
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.IntegranteNombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IntegranteNombre)
+            </div>
+
+        </div>
+        <div class="row col-md-6">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.CargoId, new { @class = "control-label" })
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.CargoId, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CargoId)
+            </div>
+
+
+            <div class="editor-label">
+                <button type="submit" class="btn btn-primary" name="submitButton" value="CrearIntegrante">Agregar Integrante</button>
+            </div>
+        </div>
+        <!--<table cellpadding="0" cellspacing="0" class="bg-primary">
+        <tr>
+            <th>Nombre Tripulacion</th>
+            <th>Estado</th>
+            <th>Identificador Unico</th>
+
+        </tr>
+        @*@if (myList3rospen != null)
+        {
+            foreach (var item in myList3rospen)
+            {
+                <tr>
+                    <td>@item.TripulacionNombre</td>
+                    <td>@item.TripulacionEstado</td>
+                    <td>@item.TripulacionId</td>
+
+                </tr>
+            }
+        }*@
+    </table>-->
+    </div>
+}
