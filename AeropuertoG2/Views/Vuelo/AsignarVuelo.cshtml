@@ -1,0 +1,63 @@
+﻿@using AeropuertoG2.Models;
+@model AeropuertoG2.Models.principales
+@{
+    ViewBag.Title = "Asignacion";
+
+    List<AsignacionTripulacionViewModel> myList3rospen2 = new List<AsignacionTripulacionViewModel>();
+    myList3rospen2 = (List<AsignacionTripulacionViewModel>)Session["listaTripulacionAsig"];
+
+    List<SelectListItem> dropdownItems = myList3rospen2
+    .Select(item => new SelectListItem
+    {
+        Value = Convert.ToString(item.tripulacionGuid),
+        Text = item.tripulacionNombre,
+        Selected = "-1" == Convert.ToString(item.tripulacionGuid) ? true : false
+    })
+    .ToList();
+
+
+    List<AsignarVueloAeronaveModel> vuelos = new List<AsignarVueloAeronaveModel>();
+    vuelos = (List<AsignarVueloAeronaveModel>)Session["listarAeronaveAsig"];
+
+    List<SelectListItem> dropdownItems2 = vuelos
+     .Select(item => new SelectListItem
+     {
+         Value = Convert.ToString(item.Id),
+         Text = item.AeronaveNombre,
+         Selected = "-1" == Convert.ToString(item.Id) ? true : false
+     })
+     .ToList();
+
+
+    List<AsignarDestinosVueloModel> destinos = new List<AsignarDestinosVueloModel>();
+    destinos = (List<AsignarDestinosVueloModel>)Session["listarDestinosVueloAsig"];
+
+    List<SelectListItem> dropdowndestinos = destinos
+     .Select(item => new SelectListItem
+     {
+         Value = Convert.ToString(item.Id),
+         Text = item.DestinoVueloNombre,
+         Selected = "-1" == Convert.ToString(item.Id) ? true : false
+     })
+     .ToList();
+
+}
+@using (Html.BeginForm())
+{
+    <h2>Asignacion de Vuelo</h2>
+    <div class="row col-md-12">
+        Destinos Vuelo:
+        @Html.DropDownListFor(model => model.AsignarDestinosVueloModel.Id, dropdowndestinos, new { @class = "form-control" })
+        <hr />
+    </div>
+    <div class="row col-md-12">
+        Tripulacion: 
+        @Html.DropDownListFor(model => model.AsignacionTripulacionViewModel.idTripulacion, dropdownItems, new { @class = "form-control" })
+        <hr />
+    </div>
+    <div class="row col-md-12">
+        Aeronave: 
+        @Html.DropDownListFor(model => model.AsignarVueloAeronaveModel.Id, dropdownItems2, new { @class = "form-control" })
+        <hr />
+    </div>
+}

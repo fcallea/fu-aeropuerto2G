@@ -346,6 +346,8 @@ D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\Aeropuerto
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\System.Web.WebPages.dll
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\System.Web.WebPages.Razor.dll
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\WebGrease.dll
+D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\EntityFramework.xml
+D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\EntityFramework.SqlServer.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Abstractions.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Features.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
@@ -366,8 +368,6 @@ D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\Aeropuerto
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\System.Web.WebPages.Razor.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Newtonsoft.Json.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Antlr3.Runtime.pdb
-D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\EntityFramework.xml
-D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\EntityFramework.SqlServer.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNet.Identity.Core.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -396,3 +396,143 @@ D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\Aeropuerto
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CopyComplete
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.dll
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.pdb
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.dll.config
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.pdb
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csc.exe
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csc.exe.config
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csc.rsp
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csi.exe
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csi.exe.config
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\csi.rsp
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.AppContext.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Collections.Immutable.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Console.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Globalization.Calendars.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.IO.Compression.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.IO.FileSystem.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Net.Http.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Net.Sockets.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Reflection.Metadata.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.ValueTuple.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Xml.XPath.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\vbc.exe
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\vbc.exe.config
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\vbc.rsp
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\VBCSCompiler.exe
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\roslyn\VBCSCompiler.exe.config
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Antlr3.Runtime.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\EntityFramework.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\EntityFramework.SqlServer.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Extensions.Primitives.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Net.Http.Headers.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Google.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Web.Infrastructure.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Newtonsoft.Json.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Owin.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Buffers.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Memory.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Numerics.Vectors.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Text.Encodings.Web.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Helpers.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Mvc.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Optimization.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Razor.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.Deployment.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.Razor.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\WebGrease.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\EntityFramework.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\EntityFramework.SqlServer.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Extensions.Primitives.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Net.Http.Headers.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Buffers.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Memory.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Numerics.Vectors.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Text.Encodings.Web.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Helpers.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Mvc.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Optimization.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.Razor.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.Deployment.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\System.Web.WebPages.Razor.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Newtonsoft.Json.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Antlr3.Runtime.pdb
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Google.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.Helpers.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.Mvc.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.Optimization.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.Razor.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.WebPages.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.AssemblyReference.cache
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CopyComplete
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.dll
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.pdb
