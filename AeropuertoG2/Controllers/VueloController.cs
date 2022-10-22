@@ -18,8 +18,8 @@ namespace AeropuertoG2.Controllers
         public ActionResult AsignarVuelo()
         {
             //CARGANDO LISTA DE TRIPULANTES
-            var url = "https://localhost:44365/api/Tripulacion/ListarTripulacion";
-            //var url = "https://tripulacion20220916123257.azurewebsites.net/api/tripulacion";
+            //var url = "https://localhost:44365/apiVuelo/Tripulacion/ListarTripulacion";
+            var url = "https://msvuelos.azurewebsites.net/apiVuelo/Tripulacion/ListarTripulacion";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";
@@ -36,7 +36,8 @@ namespace AeropuertoG2.Controllers
 
 
             //CARGANDO LISTA DE AERONAVES
-            url = "https://localhost:44365/api/Aeronave/ListarAeronaves";
+            //url = "https://localhost:44365/apiVuelo/Aeronave/ListarAeronaves";
+            url = "https://msvuelos.azurewebsites.net/apiVuelo/Aeronave/ListarAeronaves";
             request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";
@@ -53,7 +54,8 @@ namespace AeropuertoG2.Controllers
 
 
             //CARGANDO LISTA DE DESTINOS VUELOS
-            url = "https://localhost:44365/api/Vuelo/ListarDestinosVuelo";
+            //url = "https://localhost:44365/apiVuelo/Vuelo/ListarDestinosVuelo";
+            url = "https://msvuelos.azurewebsites.net/apiVuelo/Vuelo/ListarDestinosVuelo";
             request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";
@@ -96,8 +98,8 @@ namespace AeropuertoG2.Controllers
             switch (submitButton)
             {
                 case "AsignarValue":
-                        var url = "https://localhost:44365/api/Vuelo/AsignarVuelo";
-                        //var url = "https://tripulacion20220916123257.azurewebsites.net/api/tripulacion";
+                        //var url = "https://localhost:44365/apiVuelo/Vuelo/AsignarVuelo";
+                        var url = "https://msvuelos.azurewebsites.net/apiVuelo/Vuelo/AsignarVuelo";
                         var request = (HttpWebRequest)WebRequest.Create(url);
                         request.Accept = "application/json";
                         request.ContentType = "application/json";
@@ -128,85 +130,5 @@ namespace AeropuertoG2.Controllers
             return View();
         }
 
-
-        /*
-        // GET: Vuelo
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        // GET: Vuelo/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: Vuelo/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Vuelo/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Vuelo/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Vuelo/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Vuelo/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Vuelo/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-        */
     }
 }
