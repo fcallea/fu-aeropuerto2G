@@ -396,6 +396,7 @@ D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\Aeropuerto
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CopyComplete
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.dll
 D:\DIPLOMADO\front-end-vuelos\AeropuertoG2_FrontEnd 20.10.2022 v1 (2)\AeropuertoG2_FrontEnd\AeropuertoG2\obj\Debug\AeropuertoG2.pdb
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CoreCompileInputs.cache
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.dll.config
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.dll
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\AeropuertoG2.pdb
@@ -531,8 +532,7 @@ D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\System.Web.Web
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.AssemblyReference.cache
-D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CoreCompileInputs.cache
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.CopyComplete
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.dll
 D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.pdb
+D:\DIPLOMADO\front-end-vuelos\fu-aeropuerto2G\AeropuertoG2\obj\Debug\AeropuertoG2.csproj.AssemblyReference.cache
